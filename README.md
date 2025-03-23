@@ -1,6 +1,8 @@
 # Go 负载均衡算法实现
 
-这个项目用 Go 语言实现了几种常见的负载均衡算法，可用于分布式系统中的负载分配。本项目参考了 [@Zheaoli 的 Python 实现](https://github.com/Zheaoli/load-balancer-algorithm)，并对算法进行了 Go 语言的重新实现和优化。
+这个项目用 Go 语言实现了几种常见的负载均衡算法，可用于分布式系统中的负载分配。
+
+本项目参考了 [@Zheaoli 的 Python 实现](https://github.com/Zheaoli/load-balancer-algorithm)，并对算法进行了 Go 语言的重新实现和优化。
 
 ## 实现的算法
 
@@ -130,7 +132,3 @@ loadbalancer/
   └── consistent_hash.go    # Maglev一致性哈希算法实现
 ```
 
-
-## 许可证
-
-[MIT License](LICENSE)
