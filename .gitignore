@@ -1,0 +1,50 @@
+# Go语言相关忽略文件
+# 二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go工具链生成的文件
+vendor/
+bin/
+pkg/
+
+# Go模块缓存
+.cache/
+
+# IDE相关文件
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# 依赖和构建产物
+_output/
+bazel-*
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 二进制输出目录
+/main
+/bin/
+
+# 测试覆盖率报告
+coverage.txt
+profile.out
+
+# 临时文件
+*.tmp
+*~
