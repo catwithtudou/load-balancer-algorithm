@@ -1,4 +1,4 @@
-module github.com/load-balancer-algorithm
+module github.com/catwithtudou/load-balancer-algorithm
 
 go 1.23.4
 
