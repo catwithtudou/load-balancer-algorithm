@@ -22,14 +22,6 @@ go get github.com/catwithtudou/load-balancer-algorithm
 
 Use this repository as a compact reference for load balancing strategies, or import the `loadbalancer` package into experiments that compare scheduling behavior.
 
-## Quick Start
-
-```bash
-go get github.com/catwithtudou/load-balancer-algorithm
-```
-
-Use this repository as a compact reference for load balancing strategies, or import the `loadbalancer` package into experiments that compare scheduling behavior.
-
 ## Implemented Algorithms
 
 This project implements the following four load balancing algorithms:
