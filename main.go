@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/load-balancer-algorithm/loadbalancer"
+	"github.com/catwithtudou/load-balancer-algorithm/loadbalancer"
 )
 
 func main() {
