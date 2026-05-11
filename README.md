@@ -24,6 +24,14 @@ go get github.com/catwithtudou/load-balancer-algorithm
 
 这个仓库适合作为理解负载均衡策略的代码样例，也可以直接把 `loadbalancer` 包引入到实验项目里做对比验证。
 
+## 快速开始
+
+```bash
+go get github.com/catwithtudou/load-balancer-algorithm
+```
+
+这个仓库适合作为理解负载均衡策略的代码样例，也可以直接把 `loadbalancer` 包引入到实验项目里做对比验证。
+
 ## 实现的算法
 
 本项目实现了以下四种负载均衡算法：
