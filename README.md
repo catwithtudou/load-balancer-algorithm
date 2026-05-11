@@ -1,5 +1,9 @@
 # Go 负载均衡算法实现
 
+[![Go Test](https://github.com/catwithtudou/load-balancer-algorithm/actions/workflows/go.yml/badge.svg)](https://github.com/catwithtudou/load-balancer-algorithm/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/catwithtudou/load-balancer-algorithm.svg)](https://pkg.go.dev/github.com/catwithtudou/load-balancer-algorithm)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 [English Version](./docs/README.en.md)
 
 > 20250324:趁热输出了一篇关于负载均衡算法介绍的博客
@@ -90,7 +94,7 @@ package main
 
 import (
     "fmt"
-    "github.com/load-balancer-algorithm/loadbalancer"
+    "github.com/catwithtudou/load-balancer-algorithm/loadbalancer"
 )
 
 func main() {
