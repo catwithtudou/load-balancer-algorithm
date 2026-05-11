@@ -1,5 +1,9 @@
 # Go Load Balancing Algorithm Implementation
 
+[![Go Test](https://github.com/catwithtudou/load-balancer-algorithm/actions/workflows/go.yml/badge.svg)](https://github.com/catwithtudou/load-balancer-algorithm/actions/workflows/go.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/catwithtudou/load-balancer-algorithm.svg)](https://pkg.go.dev/github.com/catwithtudou/load-balancer-algorithm)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../LICENSE)
+
 > 20250324: I published a blog post about load balancing algorithms
 >
 > To help everyone understand, interested readers can check the [blog link](https://zhengyua.cn/new_blog/blog/2025/03/24/深入理解四种经典负载均衡算法/) (in Chinese)
@@ -88,7 +92,7 @@ package main
 
 import (
     "fmt"
-    "github.com/load-balancer-algorithm/loadbalancer"
+    "github.com/catwithtudou/load-balancer-algorithm/loadbalancer"
 )
 
 func main() {
