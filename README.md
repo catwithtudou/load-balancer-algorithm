@@ -16,6 +16,14 @@
 
 本项目参考了 [@Zheaoli 的 Python 实现](https://github.com/Zheaoli/load-balancer-algorithm)，并对算法进行了 Go 语言的重新实现和优化。
 
+## 快速开始
+
+```bash
+go get github.com/catwithtudou/load-balancer-algorithm
+```
+
+这个仓库适合作为理解负载均衡策略的代码样例，也可以直接把 `loadbalancer` 包引入到实验项目里做对比验证。
+
 ## 实现的算法
 
 本项目实现了以下四种负载均衡算法：
